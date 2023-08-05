@@ -1,0 +1,12 @@
+<div>
+
+    <h3>Click on the movie to check the shotimes!</h3>
+    <div class="pelis">
+      {{#each this.movies}}
+        <img src="{{this.image}}" alt="" width="200" height="250" />
+        <h3>{{this.title}}</h3>
+        <a href="/movies/{{this._id}}"><h4>Show more</h4></a>
+      {{/each}}
+    </div>
+
+</div>

@@ -6,3 +6,34 @@ body {
 a {
   color: #00B7FF;
 }
+
+.cinema-home {
+  width: 80%;
+}
+
+h1 {
+  position: absolute;
+  z-index: 100;
+  margin-left: 500px;
+  color: white;
+  font-size: 80px;
+}
+
+.btn {
+  position:absolute;
+  z-index: 100;
+  margin-left: 500px;
+  margin-top: 10px;
+}
+
+.pelis {
+  position: relative;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
+  padding: 0;
+  margin: 0;
+}
+
